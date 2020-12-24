@@ -1,0 +1,1 @@
+CREATE TABLE `reo`.`cities` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `lat` DOUBLE(10,6) NOT NULL , `lon` DOUBLE(10,6) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
